@@ -135,7 +135,7 @@ def main_cli():
         args.image_size = tuple(args.image_size)
     else:
         raise argparse.ArgumentError(
-            args.image_size, "Image size has to be exaclty 1 or 3 values"
+            args.image_size, "Image size has to be exactly 1 or 3 values"
         )
 
     return args

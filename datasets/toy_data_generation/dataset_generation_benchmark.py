@@ -57,7 +57,7 @@ def main(args: Namespace):
     if not os.path.isdir(f"configs/{dataset_name}"):
         print(
             "The dataset name that you specified does not have config files. "
-            "Provide a dataset name that in listed in the config directory!"
+            "Provide a dataset name that is listed in the config directory!"
         )
         return
     base_save_path = Path(args.base_save_path) / dataset_name
